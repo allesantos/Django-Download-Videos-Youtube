@@ -1,6 +1,6 @@
 # YouTube Downloader com Django
 
-Este é um projeto de uma plataforma de telemedicina desenvolvida com Django, permitindo que médicos e pacientes se cadastrem, façam login e interajam no sistema para agendar e realizar consultas online. 
+Este é um projeto desenvolvido em Django feito para carregar uma interface onde o usuário poderá fazer download de vídeos e audios do Youtube.
 
 ## Índice
 - [Descrição](#Descrição)
@@ -12,9 +12,8 @@ Este é um projeto de uma plataforma de telemedicina desenvolvida com Django, pe
 - [Licença](#Licença)
 
 
- 
 ## Descrição
-Este é um projeto desenvolvido em Django que oferece uma interface web simples para os usuários baixarem vídeos ou extraírem o áudio de vídeos do YouTube. O usuário insere a URL de um vídeo do YouTube e pode escolher entre fazer o download do vídeo completo ou apenas o áudio.
+Este projeto oferece uma interface web simples para os usuários baixarem vídeos ou extraírem o áudio de vídeos do YouTube. O usuário insere a URL de um vídeo do YouTube e pode escolher entre fazer o download do vídeo completo ou apenas o áudio.
 
 
 
