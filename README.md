@@ -63,3 +63,34 @@ Siga os passos abaixo para configurar o projeto:
 5. Acesse o sistema em http://127.0.0.1:8000/ no seu navegador.
 
 ## Uso
+
+1. Acesse o sistema pelo navegador através do endereço http://127.0.0.1:8000/.
+
+2. Insira a URL do vídeo do YouTube no campo de texto fornecido.
+
+3. Escolha entre baixar o vídeo ou apenas o áudio.
+
+4. Clique no botão para iniciar o download.
+
+## Contribuição
+Sinta-se à vontade para contribuir com este projeto. Siga estas etapas:
+
+1. Faça um fork do repositório.
+
+2. Crie uma nova branch para sua feature/bugfix:
+
+    ```
+    git checkout -b minha-feature
+    ```
+
+3. Envie suas alterações:
+
+    ```
+    git push origin minha-feature
+    ```
+
+4. Abra um Pull Request neste repositório.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para mais informações.
