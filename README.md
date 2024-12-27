@@ -1,6 +1,6 @@
 # YouTube Downloader com Django
 
-Este é um projeto de uma plataforma de telemedicina desenvolvida com Django, permitindo que médicos e pacientes se cadastrem, façam login e interajam no sistema para agendar e realizar consultas online. </br> </br>
+Este é um projeto de uma plataforma de telemedicina desenvolvida com Django, permitindo que médicos e pacientes se cadastrem, façam login e interajam no sistema para agendar e realizar consultas online. 
 
 ## Índice
 - [Descrição](#Descrição)
@@ -11,12 +11,12 @@ Este é um projeto de uma plataforma de telemedicina desenvolvida com Django, pe
 - [Contribuição](#Contribuição)
 - [Licença](#Licença)
 
- </br>
+
  
 ## Descrição
 Este é um projeto desenvolvido em Django que oferece uma interface web simples para os usuários baixarem vídeos ou extraírem o áudio de vídeos do YouTube. O usuário insere a URL de um vídeo do YouTube e pode escolher entre fazer o download do vídeo completo ou apenas o áudio.
 
- </br> 
+
 
 ## Tecnologias
 -  __Python 3__
@@ -27,7 +27,7 @@ Este é um projeto desenvolvido em Django que oferece uma interface web simples 
 
 -  __HTML/CSS/JavaScript__ para a interface do usuário
 
- </br> 
+
 
 ## Pré-requisitos
 Antes de começar, você precisará ter as seguintes ferramentas instaladas:
@@ -37,8 +37,7 @@ Antes de começar, você precisará ter as seguintes ferramentas instaladas:
   
 Além disso, recomenda-se usar um ambiente virtual Python para gerenciar dependências.
 
- </br> 
- 
+
 ## Instalação
 Siga os passos abaixo para configurar o projeto:
 
@@ -70,7 +69,7 @@ Siga os passos abaixo para configurar o projeto:
 
 5. Acesse o sistema em http://127.0.0.1:8000/ no seu navegador.
 
- </br> 
+
  
 ## Uso
 
@@ -82,7 +81,7 @@ Siga os passos abaixo para configurar o projeto:
 
 4. Clique no botão para iniciar o download.
 
- </br> 
+
  
 ## Contribuição
 Sinta-se à vontade para contribuir com este projeto. Siga estas etapas:
@@ -104,5 +103,6 @@ Sinta-se à vontade para contribuir com este projeto. Siga estas etapas:
 4. Abra um Pull Request neste repositório.
 
 ## Licença
+
 
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para mais informações.
