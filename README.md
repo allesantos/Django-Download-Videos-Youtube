@@ -11,8 +11,12 @@ Este é um projeto de uma plataforma de telemedicina desenvolvida com Django, pe
 - [Contribuição](#Contribuição)
 - [Licença](#Licença)
 
+ </br> </br>
+ 
 ## Descrição
 Este é um projeto desenvolvido em Django que oferece uma interface web simples para os usuários baixarem vídeos ou extraírem o áudio de vídeos do YouTube. O usuário insere a URL de um vídeo do YouTube e pode escolher entre fazer o download do vídeo completo ou apenas o áudio.
+
+ </br> </br>
 
 ## Tecnologias
 -  __Python 3__
@@ -23,6 +27,8 @@ Este é um projeto desenvolvido em Django que oferece uma interface web simples 
 
 -  __HTML/CSS/JavaScript__ para a interface do usuário
 
+ </br> </br>
+
 ## Pré-requisitos
 Antes de começar, você precisará ter as seguintes ferramentas instaladas:
 -  __Python 3.8__ ou superior
@@ -31,6 +37,8 @@ Antes de começar, você precisará ter as seguintes ferramentas instaladas:
   
 Além disso, recomenda-se usar um ambiente virtual Python para gerenciar dependências.
 
+ </br> </br>
+ 
 ## Instalação
 Siga os passos abaixo para configurar o projeto:
 
@@ -62,6 +70,8 @@ Siga os passos abaixo para configurar o projeto:
 
 5. Acesse o sistema em http://127.0.0.1:8000/ no seu navegador.
 
+ </br> </br>
+ 
 ## Uso
 
 1. Acesse o sistema pelo navegador através do endereço http://127.0.0.1:8000/.
@@ -72,6 +82,8 @@ Siga os passos abaixo para configurar o projeto:
 
 4. Clique no botão para iniciar o download.
 
+ </br> </br>
+ 
 ## Contribuição
 Sinta-se à vontade para contribuir com este projeto. Siga estas etapas:
 
