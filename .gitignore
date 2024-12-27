@@ -1,0 +1,19 @@
+# Arquivos de ambiente
+*.env
+
+# Arquivos de banco de dados
+*.sqlite3
+
+# Arquivos de cache e sessões
+__pycache__/
+*.pyc
+
+# Configurações locais do sistema operacional
+.DS_Store
+
+# Diretório de mídia e estáticos gerados
+/media/
+/staticfiles/
+
+# Pastas virtuais do Python
+venv/

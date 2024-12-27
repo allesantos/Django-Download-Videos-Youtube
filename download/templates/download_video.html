@@ -1,0 +1,66 @@
+{% load static %} <!-- Tag do Django para carregar arquivos estáticos -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download de Vídeo ou Áudio</title>
+
+    <!-- Inclusão de um arquivo CSS estático utilizando a tag do Django -->
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+
+     <!-- Importando fontes do Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="container">
+        <!-- Título principal da página -->
+        <h1>Baixar vídeo do YouTube</h1>
+
+        <!-- Descrição da funcionalidade da página -->
+        <p>Baixe vídeos do YouTube em MP3 e MP4 de alta qualidade gratuitamente</p>
+
+        <!-- Formulário para download -->
+        <form method="post">
+            {% csrf_token %} <!-- Proteção contra ataques CSRF no Django -->
+
+            <!-- Campo para entrada de URL -->
+            <div class="form-group">
+                <label for="{{ form.url.id_for_label }}" class="custom-label">{{ form.url.label }}</label>
+                
+                <!-- Renderiza o campo de URL do formulário -->
+                {{ form.url }}
+            </div>
+
+            <!-- Campo para seleção do tipo de download (vídeo ou áudio) -->
+            <div class="form-group">
+                <label for="{{ form.tipo_download.id_for_label }}" class="custom-label">{{ form.tipo_download.label }}</label>
+                
+                <!-- Renderiza o campo de seleção -->
+                {{ form.tipo_download }}
+            </div>
+
+            <!-- Botão para enviar o formulário -->
+            <button type="submit">Baixar</button>
+
+        </form>
+        
+        <!-- Exibe mensagens de feedback, se existirem -->
+        {% if message %}
+        <div class="message {{ message_class }}">
+            {{ message }}
+        </div>
+        
+        {% endif %}
+    </div>
+    
+    <!-- Rodapé fixado na parte inferior -->
+    <footer>
+        Alleart &copy; 2024 | Projeto YouTube Downloader
+    </footer>
+</body>
+</html>
